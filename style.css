@@ -1,14 +1,13 @@
-
-/** PAGE **/
+/** page **/
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial, helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: #E4DCEF;
+    background: #e4dcef;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -18,7 +17,7 @@ body {
     align-items: center;
 }
 
-/** IDENTITY **/
+/** identity **/
 
 .identity {
     display: flex;
@@ -78,13 +77,13 @@ body {
     content: ':';
 }
 
-/** COLOR THEME **/
+/** color theme **/
 
-body {background: #EEEEEE;}
+body {background: #eeeeee;}
 .identity {color: #404f59;}
 .identity a,
 .identity a:visited,
-.identity a:active {color: #00ADB5;}
+.identity a:active {color: #00adb5;}
 .identity a:hover {}
 .identity__name {color: #303841;}
-/*.identity__desc {color: #4AA0D5}*/
+.identity__desc {}
