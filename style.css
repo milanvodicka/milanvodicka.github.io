@@ -80,10 +80,10 @@ body {
 /** color theme **/
 
 body {background: #eeeeee;}
-.identity {color: #003fb5;}
+.identity {color: #404f59;}
 .identity a,
 .identity a:visited,
-.identity a:active {color: #00adb5;}
+.identity a:active {color: #003fb5;}
 .identity a:hover {}
 .identity__name {color: #303841;}
 .identity__desc {}
