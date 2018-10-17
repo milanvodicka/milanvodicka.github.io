@@ -5,10 +5,24 @@ import Layout from '../components/layout';
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Who I am</h1>
+    <p>Father, husband, full-stack developer, emerging leader.</p>
+    <h2>My carrier</h2>
+    <ul>
+      <li>
+        Tech Lead (Lean, Agile, Kanban, Rapid prototyping, Gatsby.js, Firebase)
+        in CEAi.io
+      </li>
+      <li>
+        Full-stack developer (JS, React, Redux, Apollo, Graphql, Scala, Sangria, Slick, PostgreSQL)
+        in CEAi.io
+      </li>
+      <li>
+        Full-stack developer (PHP, MVC, jQuery, MySQL)
+        in ZlavaDna.sk
+      </li>
+    </ul>
+    <Link to="/contact">Contact</Link>
   </Layout>
 );
 
